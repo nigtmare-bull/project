@@ -1,0 +1,12 @@
+E:\Кожарский\source\DirectoryService.solution\Domain\bin\Debug\net10.0\Domain.deps.json
+E:\Кожарский\source\DirectoryService.solution\Domain\bin\Debug\net10.0\Domain.dll
+E:\Кожарский\source\DirectoryService.solution\Domain\bin\Debug\net10.0\Domain.pdb
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\Domain.AssemblyInfoInputs.cache
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\Domain.AssemblyInfo.cs
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\Domain.csproj.CoreCompileInputs.cache
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\Domain.sourcelink.json
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\Domain.dll
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\refint\Domain.dll
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\Domain.pdb
+E:\Кожарский\source\DirectoryService.solution\Domain\obj\Debug\net10.0\ref\Domain.dll
