@@ -1,3 +1,20 @@
 <Solution>
-  <Project Path="Domain/Domain.csproj" />
+    <Folder Name="/Criterion implementation.cs/">
+        <File Path="Criterion implementation.cs" />
+    </Folder>
+    <Folder Name="/EntityId.cs/">
+        <File Path="EntityId.cs" />
+    </Folder>
+    <Folder Name="/EntityLifeTime.cs/">
+        <File Path="EntityLifeTime.cs" />
+    </Folder>
+    <Folder Name="/IPositionNameUniquenessCriteria.cs/">
+        <File Path="IPositionNameUniquenessCriteria.cs" />
+    </Folder>
+    <Folder Name="/Position2.cs/">
+        <File Path="Position2.cs" />
+    </Folder>
+    <Project Path="Domain/Domain.csproj" />
+    <Project Path="EntityLifeTimeTests.cs/EntityLifeTimeTests.cs.csproj" />
+    <Project Path="PositionTests.cs/PositionTests.cs.csproj" />
 </Solution>

@@ -19,19 +19,28 @@ namespace Domain.LocationsContext.ValueObjects
         public static LocationName Create(string value)
         {
             if (string.IsNullOrWhiteSpace(value))
+            {
                 throw new ArgumentException("Название локации не может быть пустым.", nameof(value));
-
-            var trimmedValue = value.Trim();
+            }
+            string trimmedValue = value.Trim();
 
             if (trimmedValue.Length > MaxLength)
+            {
                 throw new ArgumentException(
                     $"Название локации не может превышать {MaxLength} символов.",
-                    nameof(value));
+                    
+                    nameof(value)
+                    
+                );
+            }
 
             if (trimmedValue.Length < MinLength)
+            {
                 throw new ArgumentException(
                     $"Название локации должно быть от {MinLength} до {MaxLength} символов.",
-                    nameof(value));
+                    nameof(value)
+                );
+            }
 
             return new LocationName(trimmedValue);
         }
@@ -42,5 +51,3 @@ namespace Domain.LocationsContext.ValueObjects
         }
     }
 }
-    
-
