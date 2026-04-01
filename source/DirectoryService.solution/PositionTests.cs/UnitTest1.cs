@@ -16,7 +16,7 @@ public class PositionTests
             _isUnique = isUnique;
         }
         
-        public bool IsUnique(PositionName name, PositionId? excludePositionId = null)
+        public bool IsUnique(PositionName name, IPositionNameUniquenessCriteria excludePositionId = null)
         {
             return _isUnique;
         }
