@@ -16,33 +16,40 @@ namespace Domain.LocationsContext.ValueObjects
         public static IanaTimeZone Create(string value)
         {
             if (string.IsNullOrWhiteSpace(value))
+            {
                 throw new ArgumentException("IANA временная зона не может быть пустой.", nameof(value));
+            }
 
-           
-            if (!value.Contains('/'))
+            if (!value.Contains('/',StringComparison.OrdinalIgnoreCase))
+            {
                 throw new ArgumentException(
                     "Некорректный формат IANA временной зоны. Ожидается формат: Continent/City",
-                    nameof(value));
+                    nameof(value)
+                );
+            }
 
             string[] parts = value.Split('/');
 
             if (parts.Length < 2)
+            {
                 throw new ArgumentException(
                     "Некорректный формат IANA временной зоны. Ожидается формат: Continent/City",
-                    nameof(value));
+                    nameof(value)
+                );
+            }
 
-            
-            foreach (var part in parts)
+            foreach (string part in parts)
             {
                 if (string.IsNullOrWhiteSpace(part))
+                {
                     throw new ArgumentException(
                         "Некорректный формат IANA временной зоны. Части не могут быть пустыми.",
-                        nameof(value));
+                        nameof(value)
+                    );
+                }
             }
 
             return new IanaTimeZone(value);
         }
     }
 }
-    
-

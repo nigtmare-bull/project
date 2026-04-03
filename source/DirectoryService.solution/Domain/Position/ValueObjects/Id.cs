@@ -1,23 +1,18 @@
-﻿
+﻿namespace Domain.Position.ValueObjects;
 
-namespace Domain.Position.ValueObjects
+
+public sealed record Id(Guid Value)
+
 {
-    public class Id
+
+    public static Id Create(Guid value)
+
     {
-        public Guid Value { get; }
-
-        private Id(Guid value)
+        if (value != Guid.Empty)
         {
-            Value = value;
-        }
-        public static Id Create(Guid value)
-        {
-            if (value == Guid.Empty)
-            {
-                throw new ArgumentException("Идентификатор не может быть пустым.", nameof(value));
-            }
-
             return new Id(value);
         }
+
+        throw new ArgumentException("Идентификатор не может быть пустым.", nameof(value));
     }
 }

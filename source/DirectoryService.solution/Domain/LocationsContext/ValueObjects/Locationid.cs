@@ -15,14 +15,13 @@ namespace Domain.LocationsContext.ValueObjects
 
         public static Locationid Create(Guid? value = null)
         {
-            var id = value ?? Guid.NewGuid();
+            Guid id = value ?? Guid.NewGuid();
 
             if (id == Guid.Empty)
+            {
                 throw new ArgumentException("Идентификатор локации не может быть пустым.", nameof(value));
-
+            }
             return new Locationid(id);
         }
     }
 }
-    
-

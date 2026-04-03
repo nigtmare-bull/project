@@ -1,12 +1,313 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\\u041A\u043E\u0436\u0430\u0440\u0441\u043A\u0438\u0439\\source\\DirectoryService.solution\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\locationscontext\\valueobjects\\lanatimezone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\locationscontext\\valueobjects\\lanatimezone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\locationscontext\\valueobjects\\locationadderss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\locationscontext\\valueobjects\\locationadderss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\locationscontext\\valueobjects\\locationid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\locationscontext\\valueobjects\\locationid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\locationscontext\\valueobjects\\locationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\locationscontext\\valueobjects\\locationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\position\\valueobjects\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\position\\valueobjects\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\department\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\department\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\locationscontext\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\locationscontext\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\position\\valueobjects\\id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\position\\valueobjects\\id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\position\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\position\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\department\\depth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\department\\depth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\department\\identifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\department\\identifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\directoryservice.solution\\domain\\department\\departmentpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\department\\departmentpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6547BB-38B4-6F72-33D7-AFCB99DCF473}|EntityId.cs{2D6547BB-38B4-6F72-33D7-AFCB99DCF473}|D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\EntityId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6547BB-38B4-6F72-33D7-AFCB99DCF473}|EntityId.cs{2D6547BB-38B4-6F72-33D7-AFCB99DCF473}|solutionrelative:EntityId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7031F54D-738F-6A1A-32A5-87603105722B}|Criterion implementation.cs{7031F54D-738F-6A1A-32A5-87603105722B}|D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Criterion implementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7031F54D-738F-6A1A-32A5-87603105722B}|Criterion implementation.cs{7031F54D-738F-6A1A-32A5-87603105722B}|solutionrelative:Criterion implementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771D77BE-E12C-FB82-5A08-346221243E5B}|Position2.cs{771D77BE-E12C-FB82-5A08-346221243E5B}|D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Position2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771D77BE-E12C-FB82-5A08-346221243E5B}|Position2.cs{771D77BE-E12C-FB82-5A08-346221243E5B}|solutionrelative:Position2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6256E1B-CDCA-EE22-3738-1E232B6A1E47}|IPositionNameUniquenessCriteria.cs{B6256E1B-CDCA-EE22-3738-1E232B6A1E47}|D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\IPositionNameUniquenessCriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6256E1B-CDCA-EE22-3738-1E232B6A1E47}|IPositionNameUniquenessCriteria.cs{B6256E1B-CDCA-EE22-3738-1E232B6A1E47}|solutionrelative:IPositionNameUniquenessCriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22335C1B-0059-BF81-8390-52669054DECE}|EntityLifeTime.cs{22335C1B-0059-BF81-8390-52669054DECE}|D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\EntityLifeTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22335C1B-0059-BF81-8390-52669054DECE}|EntityLifeTime.cs{22335C1B-0059-BF81-8390-52669054DECE}|solutionrelative:EntityLifeTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Name.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Position\\ValueObjects\\Name.cs",
+              "RelativeDocumentMoniker": "Domain\\Position\\ValueObjects\\Name.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Position\\ValueObjects\\Name.cs",
+              "RelativeToolTip": "Domain\\Position\\ValueObjects\\Name.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T03:06:39.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocationName.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\ValueObjects\\LocationName.cs",
+              "RelativeDocumentMoniker": "Domain\\LocationsContext\\ValueObjects\\LocationName.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\ValueObjects\\LocationName.cs",
+              "RelativeToolTip": "Domain\\LocationsContext\\ValueObjects\\LocationName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T03:05:26.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Locationid.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\ValueObjects\\Locationid.cs",
+              "RelativeDocumentMoniker": "Domain\\LocationsContext\\ValueObjects\\Locationid.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\ValueObjects\\Locationid.cs",
+              "RelativeToolTip": "Domain\\LocationsContext\\ValueObjects\\Locationid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T03:05:04.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocationAdderss.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\ValueObjects\\LocationAdderss.cs",
+              "RelativeDocumentMoniker": "Domain\\LocationsContext\\ValueObjects\\LocationAdderss.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\ValueObjects\\LocationAdderss.cs",
+              "RelativeToolTip": "Domain\\LocationsContext\\ValueObjects\\LocationAdderss.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T03:03:33.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lanaTimeZone.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\ValueObjects\\lanaTimeZone.cs",
+              "RelativeDocumentMoniker": "Domain\\LocationsContext\\ValueObjects\\lanaTimeZone.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\ValueObjects\\lanaTimeZone.cs",
+              "RelativeToolTip": "Domain\\LocationsContext\\ValueObjects\\lanaTimeZone.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T03:00:08.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Depth.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Department\\Depth.cs",
+              "RelativeDocumentMoniker": "Domain\\Department\\Depth.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Department\\Depth.cs",
+              "RelativeToolTip": "Domain\\Department\\Depth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T02:57:46.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Identifier.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Department\\Identifier.cs",
+              "RelativeDocumentMoniker": "Domain\\Department\\Identifier.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Department\\Identifier.cs",
+              "RelativeToolTip": "Domain\\Department\\Identifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T02:57:16.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentPath.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Department\\DepartmentPath.cs",
+              "RelativeDocumentMoniker": "Domain\\Department\\DepartmentPath.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Department\\DepartmentPath.cs",
+              "RelativeToolTip": "Domain\\Department\\DepartmentPath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T02:34:42.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Id.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Position\\ValueObjects\\Id.cs",
+              "RelativeDocumentMoniker": "Domain\\Position\\ValueObjects\\Id.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Position\\ValueObjects\\Id.cs",
+              "RelativeToolTip": "Domain\\Position\\ValueObjects\\Id.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T02:08:35.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Department\\Department.cs",
+              "RelativeDocumentMoniker": "Domain\\Department\\Department.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Department\\Department.cs",
+              "RelativeToolTip": "Domain\\Department\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T03:10:47.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Position.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Position\\Position.cs",
+              "RelativeDocumentMoniker": "Domain\\Position\\Position.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\Position\\Position.cs",
+              "RelativeToolTip": "Domain\\Position\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T05:15:47.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\Location.cs",
+              "RelativeDocumentMoniker": "Domain\\LocationsContext\\Location.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Domain\\LocationsContext\\Location.cs",
+              "RelativeToolTip": "Domain\\LocationsContext\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T05:08:32.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EntityId.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\EntityId.cs",
+              "RelativeDocumentMoniker": "EntityId.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\EntityId.cs",
+              "RelativeToolTip": "EntityId.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T03:05:59.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Criterion implementation.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Criterion implementation.cs",
+              "RelativeDocumentMoniker": "Criterion implementation.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Criterion implementation.cs",
+              "RelativeToolTip": "Criterion implementation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T03:09:56.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Position2.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Position2.cs",
+              "RelativeDocumentMoniker": "Position2.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\Position2.cs",
+              "RelativeToolTip": "Position2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T03:08:48.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPositionNameUniquenessCriteria.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\IPositionNameUniquenessCriteria.cs",
+              "RelativeDocumentMoniker": "IPositionNameUniquenessCriteria.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\IPositionNameUniquenessCriteria.cs",
+              "RelativeToolTip": "IPositionNameUniquenessCriteria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T03:07:45.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EntityLifeTime.cs",
+              "DocumentMoniker": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\EntityLifeTime.cs",
+              "RelativeDocumentMoniker": "EntityLifeTime.cs",
+              "ToolTip": "D:\\\u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\source\\DirectoryService.solution\\EntityLifeTime.cs",
+              "RelativeToolTip": "EntityLifeTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T03:07:01.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

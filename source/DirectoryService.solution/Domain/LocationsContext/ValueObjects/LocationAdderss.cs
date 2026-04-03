@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Domain.LocationsContext.ValueObjects
 {
-    public class LocationAdderss
+    public static class LocationAdderss
     {
         public class LocationAddress
         {
@@ -23,21 +23,19 @@ namespace Domain.LocationsContext.ValueObjects
             public static LocationAddress Create(string value)
             {
                 if (string.IsNullOrWhiteSpace(value))
+                {
                     throw new ArgumentException("Адрес локации не может быть пустым.", nameof(value));
+                }
 
                 List<string> parts =
                 [
-                    .. value
-                    .Split(',')
-                    .Select(part => part.Trim())
-                    .Where(part => !string.IsNullOrWhiteSpace(part)),
-            ];
+                    .. value.Split(',').Select(part => part.Trim()).Where(part => !string.IsNullOrWhiteSpace(part)),
+                ];
 
                 if (parts.Count == 0)
-                    throw new ArgumentException(
-                        "Адрес локации должен содержать хотя бы одну часть.",
-                        nameof(value)
-                    );
+                {
+                    throw new ArgumentException("Адрес локации должен содержать хотя бы одну часть.", nameof(value));
+                }
 
                 return new LocationAddress(parts);
             }
@@ -45,22 +43,18 @@ namespace Domain.LocationsContext.ValueObjects
             public static LocationAddress Create(IEnumerable<string> parts)
             {
                 if (!parts.Any())
-                    throw new ArgumentException(
-                        "Адрес локации должен содержать хотя бы одну часть.",
-                        nameof(parts)
-                    );
-
+                {
+                    throw new ArgumentException("Адрес локации должен содержать хотя бы одну часть.", nameof(parts));
+                }
                 List<string> trimmedParts =
                 [
                     .. parts.Select(part => part.Trim()).Where(part => !string.IsNullOrWhiteSpace(part)),
-            ];
+                ];
 
                 if (trimmedParts.Count == 0)
-                    throw new ArgumentException(
-                        "Адрес локации должен содержать хотя бы одну часть.",
-                        nameof(parts)
-                    );
-
+                {
+                    throw new ArgumentException("Адрес локации должен содержать хотя бы одну часть.", nameof(parts));
+                }
                 return new LocationAddress(trimmedParts);
             }
         }
