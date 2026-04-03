@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qxJB1Z6Qdyo=",
+  "dgSpecHash": "+KYHLG9ergk=",
   "success": true,
-  "projectFilePath": "E:\\Кожарский\\source\\DirectoryService.solution\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "d:\\новый проект\\source\\DirectoryService.solution\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stud\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\10.0.102\\microsoft.codeanalysis.netanalyzers.10.0.102.nupkg.sha512",
+    "C:\\Users\\stud\\.nuget\\packages\\roslynator.refactorings\\4.15.0\\roslynator.refactorings.4.15.0.nupkg.sha512"
+  ],
   "logs": []
 }

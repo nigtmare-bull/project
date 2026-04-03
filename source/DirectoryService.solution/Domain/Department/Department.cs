@@ -1,30 +1,43 @@
-﻿using Domain.Department.ValueObjects;
+﻿using Domain.LocationsContext;
 using Domain.Position.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Domain.Department
+namespace Domain.Department;
+
+
+public record Department(
+    Id Id,
+    Id ParentId,
+    Name Name,
+    Identifier Identifier,
+    DepartmentPath Path,
+    Depth Depth,
+    EntityLifeTime LifeTime)
 {
-    public class Department
+    
+    public static Department Create(
+        Id id,
+        Id parentId,
+        Name name,
+        Identifier identifier,
+        DepartmentPath path,
+        Depth depth,
+        EntityLifeTime lifeTime)
     {
-        public Department(Id id, Id parentid, Name name, Identifier identifier, DepartmentPath path, Depth depth, EntityLifeTime lifeTime)
-        {
-            Id = id;
-            ParentId = parentid;
-            Name = name;
-            Depth = depth;
-            Identifier = identifier;
-            Path = path;
-            LifeTime = lifeTime;
-        }
-        public Id Id { get; }
-        public Id ParentId { get; }
-        public Name Name { get; }
-        public Identifier Identifier { get; }
-        public DepartmentPath Path { get; }
-        public Depth Depth { get; }
-        public EntityLifeTime LifeTime { get; }
+           return new Department(id, parentId, name, identifier, path, depth, lifeTime);
     }
+    public static Department Create(
+        Id id,
+        Id parentId,
+        Name name,
+        Identifier identifier,
+        DepartmentPath path,
+        Depth depth)
+    {
+        
+    return new Department(id, parentId, name, identifier, path, depth,  EntityLifeTime.Create());
 
+    }
+    
 }
+
+
