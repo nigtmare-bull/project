@@ -1,10 +1,12 @@
-﻿// EntityLifeTime.cs
+﻿using System;
+
+namespace Domain;
+
 public sealed class EntityLifeTime
 {
     public DateTime CreatedAt { get; }
     public DateTime? LastUpdatedAt { get; private set; }
     public DateTime? ArchivedAt { get; private set; }
-
     public bool IsArchived => ArchivedAt.HasValue;
 
     private EntityLifeTime(DateTime createdAt)

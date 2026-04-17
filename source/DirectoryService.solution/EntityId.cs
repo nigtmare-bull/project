@@ -1,8 +1,10 @@
-﻿// EntityId.cs
+﻿using System;
+
+namespace Domain;
+
 public abstract class EntityId : IEquatable<EntityId>
 {
     public Guid Value { get; }
-
     protected EntityId(Guid value) => Value = value;
 
     public static bool operator ==(EntityId? left, EntityId? right) =>
@@ -22,27 +24,22 @@ public abstract class EntityId : IEquatable<EntityId>
     public override string ToString() => Value.ToString();
 }
 
-
-// PositionId.cs
-public sealed class PositionId : EnitiId
+public sealed class PositionId : EntityId
 {
     public PositionId(Guid value) : base(value) { }
-
     public static PositionId New() => new(Guid.NewGuid());
 }
 
-// PositionName.cs
 public sealed class PositionName : IEquatable<PositionName>
 {
     public string Value { get; }
-
     private PositionName(string value)
     {
         if (string.IsNullOrWhiteSpace(value))
             throw new ArgumentException("Название должности не может быть пустым.", nameof(value));
 
         if (value.Length > 100)
-            throw new ArgumentException("Название должности не может привышать более ста символов.", nameof(value));
+            throw new ArgumentException("Название должности не может превышать более ста символов.", nameof(value));
 
         Value = value.Trim();
     }
@@ -63,5 +60,4 @@ public sealed class PositionName : IEquatable<PositionName>
         !Equals(left, right);
 
     public override string ToString() => Value;
-
 }

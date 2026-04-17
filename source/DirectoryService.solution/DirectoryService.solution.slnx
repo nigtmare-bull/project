@@ -1,4 +1,4 @@
-<Solution>
+ <Solution>
     <Folder Name="/Criterion implementation.cs/">
         <File Path="Criterion implementation.cs" />
     </Folder>
@@ -16,5 +16,4 @@
     </Folder>
     <Project Path="Domain/Domain.csproj" />
     <Project Path="EntityLifeTimeTests.cs/EntityLifeTimeTests.cs.csproj" />
-    <Project Path="PositionTests.cs/PositionTests.cs.csproj" />
 </Solution>
